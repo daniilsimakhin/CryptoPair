@@ -16,8 +16,7 @@ class ViewController: UIViewController {
     
     private let label: UILabel = {
         let label = UILabel()
-        label.text = "Сryptocurrency exchange"
-
+        label.text = "CryptoPair"
         label.font = .italicSystemFont(ofSize: 45)
         label.adjustsFontSizeToFitWidth = true
         label.textAlignment = .center
