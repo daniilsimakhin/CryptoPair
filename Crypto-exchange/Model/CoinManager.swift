@@ -1,6 +1,6 @@
 //
 //  CoinManager.swift
-//  ByteCoin
+//  Crypto-exchange
 //
 //  Created by Даниил Симахин on 19.05.2022.
 //

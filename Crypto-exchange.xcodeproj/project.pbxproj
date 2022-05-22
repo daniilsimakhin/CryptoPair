@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A521279B2834188E00722B4E /* ByteCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByteCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A521279B2834188E00722B4E /* Crypto-exchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto-exchange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A521279E2834188E00722B4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A52127A02834188E00722B4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A52127A22834188E00722B4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		A52127922834188E00722B4E = {
 			isa = PBXGroup;
 			children = (
-				A521279D2834188E00722B4E /* ByteCoin */,
+				A521279D2834188E00722B4E /* Crypto-exchange */,
 				A521279C2834188E00722B4E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		A521279C2834188E00722B4E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A521279B2834188E00722B4E /* ByteCoin.app */,
+				A521279B2834188E00722B4E /* Crypto-exchange.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A521279D2834188E00722B4E /* ByteCoin */ = {
+		A521279D2834188E00722B4E /* Crypto-exchange */ = {
 			isa = PBXGroup;
 			children = (
 				A52127B2283426FD00722B4E /* Model */,
@@ -66,7 +66,7 @@
 				A52127A72834188E00722B4E /* Assets.xcassets */,
 				A52127AC2834188E00722B4E /* Info.plist */,
 			);
-			path = ByteCoin;
+			path = "Crypto-exchange";
 			sourceTree = "<group>";
 		};
 		A52127B2283426FD00722B4E /* Model */ = {
@@ -97,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A521279A2834188E00722B4E /* ByteCoin */ = {
+		A521279A2834188E00722B4E /* Crypto-exchange */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A52127AF2834188E00722B4E /* Build configuration list for PBXNativeTarget "ByteCoin" */;
+			buildConfigurationList = A52127AF2834188E00722B4E /* Build configuration list for PBXNativeTarget "Crypto-exchange" */;
 			buildPhases = (
 				A52127972834188E00722B4E /* Sources */,
 				A52127982834188E00722B4E /* Frameworks */,
@@ -109,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = ByteCoin;
+			name = "Crypto-exchange";
 			productName = ByteCoin;
-			productReference = A521279B2834188E00722B4E /* ByteCoin.app */;
+			productReference = A521279B2834188E00722B4E /* Crypto-exchange.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A52127962834188E00722B4E /* Build configuration list for PBXProject "ByteCoin" */;
+			buildConfigurationList = A52127962834188E00722B4E /* Build configuration list for PBXProject "Crypto-exchange" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A521279A2834188E00722B4E /* ByteCoin */,
+				A521279A2834188E00722B4E /* Crypto-exchange */,
 			);
 		};
 /* End PBXProject section */
@@ -309,7 +309,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 65JLP27XM7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ByteCoin/Info.plist;
+				INFOPLIST_FILE = "Crypto-exchange/info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -320,7 +320,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = DaniilSimakhin.ByteCoin;
+				PRODUCT_BUNDLE_IDENTIFIER = "DaniilSimakhin.Crypto-exchange";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -337,7 +337,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 65JLP27XM7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ByteCoin/Info.plist;
+				INFOPLIST_FILE = "Crypto-exchange/info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -348,7 +348,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = DaniilSimakhin.ByteCoin;
+				PRODUCT_BUNDLE_IDENTIFIER = "DaniilSimakhin.Crypto-exchange";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -359,7 +359,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A52127962834188E00722B4E /* Build configuration list for PBXProject "ByteCoin" */ = {
+		A52127962834188E00722B4E /* Build configuration list for PBXProject "Crypto-exchange" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A52127AD2834188E00722B4E /* Debug */,
@@ -368,7 +368,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A52127AF2834188E00722B4E /* Build configuration list for PBXNativeTarget "ByteCoin" */ = {
+		A52127AF2834188E00722B4E /* Build configuration list for PBXNativeTarget "Crypto-exchange" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A52127B02834188E00722B4E /* Debug */,

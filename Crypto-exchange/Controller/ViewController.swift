@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  ByteCoin
+//  Crypto-exchange
 //
 //  Created by Даниил Симахин on 18.05.2022.
 //
@@ -79,6 +79,7 @@ class ViewController: UIViewController {
         button.layer.cornerRadius = 25
         button.titleLabel?.font = .systemFont(ofSize: 25, weight: .regular)
         button.backgroundColor = .systemGray.withAlphaComponent(0.6)
+        button.addTarget(self, action: #selector(updateButtonPressed(_:)), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -137,6 +138,10 @@ class ViewController: UIViewController {
             updateButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -10),
             updateButton.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20),
         ])
+    }
+    
+    @objc func updateButtonPressed(_ sender: UIButton) {
+        coinManager.performRequest(base: coinManager.currencyBase[selectBaseCurrency], quote: coinManager.currencyQuote[selectQuoteCurrency])
     }
 }
 
