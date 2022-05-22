@@ -9,7 +9,7 @@
 * ParseJSON
 * URLSession
 * Without storyboard
-## Screenshots
+## Screenshot
 <p align="center">
   <img src = "https://github.com/daniilsimakhin/CryptoPair/blob/main/Source/Снимок%20экрана%202022-05-23%20в%2001.20.00.png" width="250"/>
 </p>
