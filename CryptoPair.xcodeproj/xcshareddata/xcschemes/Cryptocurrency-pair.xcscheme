@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A521279A2834188E00722B4E"
-               BuildableName = "Crypto-exchange.app"
-               BlueprintName = "Crypto-exchange"
-               ReferencedContainer = "container:Crypto-exchange.xcodeproj">
+               BuildableName = "CryptoPair.app"
+               BlueprintName = "CryptoPair"
+               ReferencedContainer = "container:CryptoPair.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A521279A2834188E00722B4E"
-            BuildableName = "Crypto-exchange.app"
-            BlueprintName = "Crypto-exchange"
-            ReferencedContainer = "container:Crypto-exchange.xcodeproj">
+            BuildableName = "CryptoPair.app"
+            BlueprintName = "CryptoPair"
+            ReferencedContainer = "container:CryptoPair.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A521279A2834188E00722B4E"
-            BuildableName = "Crypto-exchange.app"
-            BlueprintName = "Crypto-exchange"
-            ReferencedContainer = "container:Crypto-exchange.xcodeproj">
+            BuildableName = "CryptoPair.app"
+            BlueprintName = "CryptoPair"
+            ReferencedContainer = "container:CryptoPair.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
